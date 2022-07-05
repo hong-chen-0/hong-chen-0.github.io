@@ -18,6 +18,12 @@ docker image ls
 docker run -d -p 80:80 nginx:cc
 ```
 
+重命名容器
+
+```markdown
+docker rename vv cc
+```
+
 删除镜像
 
 ```markdown
