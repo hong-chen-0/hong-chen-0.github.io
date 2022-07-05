@@ -45,7 +45,7 @@ docker load < d:/cc.tar
 进入镜像（linux操作）
 
 ```markdown
-docker run -it nginx:cc bash
+docker exec -it nginx:cc bash
 ```
 
 容器打包为镜像
