@@ -18,6 +18,12 @@ docker image ls
 docker ps -a
 ```
 
+查看容器状态
+
+```markdown
+docker stats
+```
+
 运行镜像（80端口映射）
 
 ```markdown
