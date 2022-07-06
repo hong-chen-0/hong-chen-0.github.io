@@ -12,6 +12,12 @@ docker pull nginx
 docker image ls
 ```
 
+列出容器
+
+```markdown
+docker ps -a
+```
+
 运行镜像（80端口映射）
 
 ```markdown
