@@ -54,7 +54,7 @@ docker save nginx:cc > d:/cc.tar
 docker load < d:/cc.tar
 ```
 
-进入镜像（linux操作）
+进入容器（linux操作）
 
 ```markdown
 docker exec -it nginx:cc bash
