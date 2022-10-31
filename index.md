@@ -66,13 +66,13 @@ docker exec -it nginx:cc bash
 docker commit cc nginx:cc
 ```
 
-重命名镜像
+重命名镜像（标记镜像）
 
 ```markdown
 docker tag nginx:cc qgctempler/nginx:cc
 ```
 
-镜像上传在线仓库
+镜像上传在线仓库（必须标记镜像后才能上传）
 
 ```markdown
 docker push qgctempler/nginx:cc
