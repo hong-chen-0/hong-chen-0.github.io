@@ -78,7 +78,15 @@ docker tag nginx:cc qgctempler/nginx:cc
 docker push qgctempler/nginx:cc
 ```
 
+从容器传输文件到本机
 
+```markdown
+docker cp d964e6d6bc03421ef859d8ba884e32f1b45624ac1f51143703f4b4baf61a844e:/var/www/server.php d:/server.php
+```
+
+从本机传输文件到容器
+
+docker cp d:/server.php d964e6d6bc03421ef859d8ba884e32f1b45624ac1f51143703f4b4baf61a844e:/var/www/server.php
 
 (https://hong-chen-0.github.io/)
 
